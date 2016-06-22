@@ -12,6 +12,7 @@
 		F9B6AB0A1D1A146200E705FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B6AB081D1A146200E705FA /* Main.storyboard */; };
 		F9B6AB0C1D1A146200E705FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B6AB0B1D1A146200E705FA /* Assets.xcassets */; };
 		F9B6AB0F1D1A146200E705FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9B6AB0D1D1A146200E705FA /* LaunchScreen.storyboard */; };
+		F9B6AB171D1ABEBE00E705FA /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F9B6AB161D1ABEBE00E705FA /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F9B6AB0B1D1A146200E705FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9B6AB0E1D1A146200E705FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9B6AB101D1A146200E705FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9B6AB161D1ABEBE00E705FA /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				F9B6AB031D1A146200E705FA /* retro-calculator */,
 				F9B6AB021D1A146200E705FA /* Products */,
+				F9B6AB161D1ABEBE00E705FA /* Minecraft.ttf */,
 			);
 			sourceTree = "<group>";
 		};
@@ -124,6 +127,7 @@
 			files = (
 				F9B6AB0F1D1A146200E705FA /* LaunchScreen.storyboard in Resources */,
 				F9B6AB0C1D1A146200E705FA /* Assets.xcassets in Resources */,
+				F9B6AB171D1ABEBE00E705FA /* Minecraft.ttf in Resources */,
 				F9B6AB0A1D1A146200E705FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
