@@ -189,6 +189,9 @@
                                                     <constraint firstAttribute="width" constant="61" id="Voz-Nc-VnS"/>
                                                 </constraints>
                                                 <state key="normal" image="divide"/>
+                                                <connections>
+                                                    <action selector="onDividePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Am-d9-zZ6"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2jk-Mn-qgh">
                                                 <rect key="frame" x="152" y="0.0" width="61" height="63"/>
@@ -197,6 +200,9 @@
                                                     <constraint firstAttribute="height" constant="63" id="JsW-Od-HBC"/>
                                                 </constraints>
                                                 <state key="normal" image="multiply"/>
+                                                <connections>
+                                                    <action selector="onMultiplyPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hhu-A9-bYk"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -210,6 +216,9 @@
                                                     <constraint firstAttribute="height" constant="63" id="Qh6-SB-dpi"/>
                                                 </constraints>
                                                 <state key="normal" image="add"/>
+                                                <connections>
+                                                    <action selector="onAddPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NIv-LD-Jou"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="43h-5f-odc">
                                                 <rect key="frame" x="76" y="0.0" width="61" height="63"/>
@@ -218,6 +227,9 @@
                                                     <constraint firstAttribute="width" constant="61" id="qvP-H8-jFA"/>
                                                 </constraints>
                                                 <state key="normal" image="subtract"/>
+                                                <connections>
+                                                    <action selector="onSubtractPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TJZ-Gs-x05"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQD-uO-HME">
                                                 <rect key="frame" x="152" y="0.0" width="61" height="63"/>
@@ -226,13 +238,16 @@
                                                     <constraint firstAttribute="width" constant="61" id="7Hk-zS-JXM"/>
                                                 </constraints>
                                                 <state key="normal" image="equal"/>
+                                                <connections>
+                                                    <action selector="onEqualPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m7X-cY-mCi"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZF-DK-HR9">
-                                <rect key="frame" x="330" y="116" width="81" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VZF-DK-HR9">
+                                <rect key="frame" x="394" y="116" width="17" height="30"/>
                                 <fontDescription key="fontDescription" name="Minecraft" family="Minecraft" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -257,6 +272,9 @@
                             <constraint firstItem="3bQ-Le-0cs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ycW-Pz-J7X"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="outputLbl" destination="VZF-DK-HR9" id="WGF-lh-bVC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
